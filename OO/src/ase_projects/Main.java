@@ -1,4 +1,3 @@
-package ticket;
 
 
 public class Main {
