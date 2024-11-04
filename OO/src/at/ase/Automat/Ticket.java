@@ -1,4 +1,3 @@
-package ase_projects;   
 import java.util.Random;
 
 
@@ -22,6 +21,10 @@ public class Ticket {
         return createdTimeStamp;
     }
 
+    public void setCreatedTimeStamp(long createdTimeStamp) {
+        this.createdTimeStamp = createdTimeStamp;
+    }
+
     public long getPayedTimeStamp() {
         return payedTimeStamp;
     }
@@ -32,5 +35,3 @@ public class Ticket {
 
     
 }
-
-
