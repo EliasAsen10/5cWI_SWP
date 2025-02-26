@@ -3,10 +3,12 @@ package at.ase.shop;
 public class Car implements Product {
     private String color;
     private String name;
+    private double price;
 
-    public Car(String color, String name) {
+    public Car(String color, String name, double price) {
         this.color = color;
         this.name = name;
+        this.price = 25000.0;
     }
 
     public String getName() {
@@ -24,5 +26,7 @@ public class Car implements Product {
         this.color = color;
     }
 
-    
+    public double getPrice() {
+        return price;
+    }
 }

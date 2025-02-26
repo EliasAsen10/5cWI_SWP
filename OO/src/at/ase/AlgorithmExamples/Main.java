@@ -6,6 +6,7 @@ public class Main {
         int[] dataArray =  DataGenerator1.generateDataArray(3);
         int[] dataArray2=  DataGenerator1.generateDataArray(8,0,100);
         DataGenerator1.printArray(dataArray2);
+        
 
 
                
